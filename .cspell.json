@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "words": [
+    "ZIZMOR"
+  ],
+  "allowCompoundWords": true,
+  "language": "en,en-US",
+  "ignorePaths": [
+    ".cspell.json"
+  ],
+  "useGitignore": true
+}

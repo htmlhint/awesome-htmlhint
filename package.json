@@ -1,25 +1,19 @@
 {
   "name": "awesome-htmlhint",
   "version": "1.0.0",
-  "description": "> This is an awesome list",
-  "main": "index.js",
-  "scripts": {
-
+  "description": "htmlhint list",
+  "homepage": "https://github.com/htmlhint/awesome-htmlhint#readme",
+  "bugs": {
+    "url": "https://github.com/htmlhint/awesome-htmlhint/issues"
   },
-  "devDependencies": {
-		"awesome-lint": "*"
-	},
   "repository": {
     "type": "git",
-    "url": "git+https://thedaviddias@github.com/thedaviddias/awesome-htmlhint.git"
+    "url": "git+https://github.com/htmlhint/awesome-htmlhint.git"
   },
-  "keywords": [
-    "awesome"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thedaviddias/awesome-htmlhint/issues"
-  },
-  "homepage": "https://github.com/thedaviddias/awesome-htmlhint#readme"
+  "license": "MIT",
+  "author": "HTMLHint",
+  "scripts": {
+    "prettier": "npx prettier --write \"**/*.{md,yml}\"",
+    "spellcheck": "npx cspell \"*.md\" --no-progress"
+  }
 }
